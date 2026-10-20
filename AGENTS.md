@@ -1,5 +1,10 @@
 This is an Expo/React Native mobile application. Prioritize mobile-first patterns, performance, and cross-platform compatibility.
 
+## User communication preferences
+
+- After every code change or implementation, provide a concise explanation suitable for a junior developer.
+- Include relevant code snippets, identify the changed files, and explain what changed, how it works, and why.
+
 ## Expo has changed — do not trust your training data
 
 Expo ships breaking changes every SDK release. APIs you remember are likely renamed, moved, or removed. Before writing any code that touches an Expo, EAS, or React Native API:
