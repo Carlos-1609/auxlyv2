@@ -9,6 +9,14 @@ export type ConnectedMusicAccount = {
   displayName: string;
 };
 
+// An unfinished mix can have no destination yet. It is not a backend request.
+export type PlaylistDraft = {
+  name: string;
+  selectedFriendIds: readonly string[];
+  tracksPerPerson: number;
+  destinationConnectionId: ConnectedMusicAccount['id'] | null;
+};
+
 export type PlaylistCreationInput = {
   roomId: string;
   name: string;

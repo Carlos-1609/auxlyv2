@@ -2,8 +2,16 @@ This is an Expo/React Native mobile application. Prioritize mobile-first pattern
 
 ## User communication preferences
 
-- After every code change or implementation, provide a concise explanation suitable for a junior developer.
-- Include relevant code snippets, identify the changed files, and explain what changed, how it works, and why.
+- After every code change or implementation, from a one-line fix to a large feature,
+  provide a concise explanation written for a junior developer.
+- Start with what changed, link to the relevant files, and include small, relevant
+  code snippets. Explain what each snippet does in plain language.
+- Explain how the pieces work together, why this approach was chosen, and the
+  important trade-offs or limitations. Distinguish completed work from future work.
+- Avoid unnecessary jargon. When a technical term is needed, define it immediately
+  and use a simple analogy when that makes the idea easier to understand.
+- Keep the explanation proportional to the change: approachable and useful, not
+  an overly complicated lecture or an unexplained list of files.
 
 ## Expo has changed — do not trust your training data
 
