@@ -20,7 +20,7 @@ function createEmptyDraft(): PlaylistDraft {
   };
 }
 
-// A factory gives each signed-in user their own store, rather than one global store.
+// A factory gives each signed-in user their own store, rather than one global store
 export function createPlaylistDraftStore() {
   return createStore<PlaylistDraftStore>()((set) => ({
     ...createEmptyDraft(),
